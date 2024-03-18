@@ -1,0 +1,41 @@
+version: '3'
+
+services:
+  backend:
+    container_name: backend
+    build:
+      context: ./core_backend
+      args:
+        DJANGO_SETTINGS_MODULE: core_backend.settings
+    volumes:
+      - ./core_backend/base_db.sqlite3:/django/db.sqlite3
+    ports:
+      - "8000:8000"
+
+  front:
+    build:
+      context: ./frontend
+      args:
+        NEXT_PUBLIC_API_URL: "http://0.0.0.0:80/api"
+        GENERATE_SOURCEMAP: 0
+    volumes:
+      - react_build:/react-frontend/out
+    stdin_open: true
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:8080"
+    volumes:
+      - ./nginx/nginx-proxy.conf:/etc/nginx/conf.d/default.conf:ro
+      - react_build:/var/www/react-frontend
+      - ./financial_data_backup:/var/www/financial_data_backup
+      - ./nginx/index.html:/var/www/admin_file/index.html
+      - ./leaked_app/:/var/www/financial_data_backup/8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918/
+      - ./leaked_app/leaked_git:/var/www/financial_data_backup/8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918/.git/
+    depends_on:
+      - front
+      - backend
+
+volumes:
+  react_build:

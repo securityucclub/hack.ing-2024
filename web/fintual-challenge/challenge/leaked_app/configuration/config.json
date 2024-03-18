@@ -1,0 +1,22 @@
+{
+    "database": {
+      "host": "localhost",
+      "port": 3306,
+      "username": "myuser",
+      "password": "mypassword",
+      "database_name": "mydatabase"
+    },
+    "server": {
+      "host": "127.0.0.1",
+      "port": 8080,
+      "debug": true
+    },
+    "logging": {
+      "level": "info",
+      "path": "/var/log/myapp.log"
+    },
+    "api_keys": {
+      "financial_api": "<your-financial-api-key>",
+      "data_api": "<your-data-api-key>"
+    }
+  }

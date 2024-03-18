@@ -1,0 +1,7 @@
+version: '3'
+services:
+  pc-alice:
+    image: alpine
+    command: sh -c "apk add --update openssh && echo 'root:password' | chpasswd && sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config && ssh-keygen -A && echo 'hack.ing{b3tt3r_r34d_th3_fvck1ng_m4nu4l}' > /root/flag.txt && /usr/sbin/sshd -D -p 2222"
+    ports:
+      - "2222:2222"

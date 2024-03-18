@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: .
+    environment:
+      PORT: 3000
+    ports:
+      - 80:3000

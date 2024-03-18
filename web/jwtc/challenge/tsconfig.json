@@ -1,0 +1,10 @@
+{
+  // Used by language server and Hono's JSX
+  "compilerOptions": {
+    "strict": true,
+    "types": ["bun-types"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
+    "noEmit": true
+  }
+}

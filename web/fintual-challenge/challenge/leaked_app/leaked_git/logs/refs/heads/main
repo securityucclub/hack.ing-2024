@@ -1,0 +1,19 @@
+0000000000000000000000000000000000000000 403e6b67d163d3d6460958dc1e06769ba25fb33a Fintual Developer <fintual@h4ck1ng.org> 1710337833 -0300	commit (initial): initial commit
+403e6b67d163d3d6460958dc1e06769ba25fb33a fd81244dbfed3f1f9699ccaff0696b30d3be3012 Fintual Developer <fintual@h4ck1ng.org> 1710338166 -0300	commit: add gitignore
+fd81244dbfed3f1f9699ccaff0696b30d3be3012 d517024c92df774966f2d030f853f752e589c32a Fintual Developer <fintual@h4ck1ng.org> 1710338180 -0300	commit: add main program
+d517024c92df774966f2d030f853f752e589c32a 57269a861a878a073da164262a89ea06225c5a24 Fintual Developer <fintual@h4ck1ng.org> 1710348370 -0300	commit: add data file
+57269a861a878a073da164262a89ea06225c5a24 2dacca56c41d4610ead7175ae3fa700715b49b43 Fintual Developer <fintual@h4ck1ng.org> 1710348600 -0300	commit: add configuration file
+2dacca56c41d4610ead7175ae3fa700715b49b43 816c66bf68ed6c9a091a2f2e4d13fbd1bfc0d2b8 Fintual Developer <fintual@h4ck1ng.org> 1710348763 -0300	commit: create currency conversion helper
+816c66bf68ed6c9a091a2f2e4d13fbd1bfc0d2b8 15351d2d0ceefa6946dd6dced1c648e5eeb6f99c Fintual Developer <fintual@h4ck1ng.org> 1710348774 -0300	commit: create project manifest
+15351d2d0ceefa6946dd6dced1c648e5eeb6f99c d8014f8d5d074e5f4fff82b7717cf6e7679125c9 Fintual Developer <fintual@h4ck1ng.org> 1710348813 -0300	commit: add requirements file
+d8014f8d5d074e5f4fff82b7717cf6e7679125c9 642dc665f838b9e0dc22138a210d8ab4243a24df Fintual Developer <fintual@h4ck1ng.org> 1710348858 -0300	commit: remove accidental file
+642dc665f838b9e0dc22138a210d8ab4243a24df 879efc000a09c447357d5f6ac44e26e686f3e346 Fintual Developer <fintual@h4ck1ng.org> 1710348880 -0300	commit: new employee
+879efc000a09c447357d5f6ac44e26e686f3e346 04487bde32476fe2b9aca2380856e95fbd5a40d0 Fintual Developer <fintual@h4ck1ng.org> 1710348907 -0300	commit: website definition
+04487bde32476fe2b9aca2380856e95fbd5a40d0 8cf966d06ae0939927b8bcb187179f5c05f76860 Fintual Developer <fintual@h4ck1ng.org> 1710348927 -0300	commit: fix https definition
+8cf966d06ae0939927b8bcb187179f5c05f76860 3cf5f83516b0804344e839f1ff9ea5eb5ffe7a40 Fintual Developer <fintual@h4ck1ng.org> 1710348941 -0300	commit: add EOL
+3cf5f83516b0804344e839f1ff9ea5eb5ffe7a40 d38c38ff0a7db24e11a719d148e045891fd91225 Fintual Developer <fintual@h4ck1ng.org> 1710349081 -0300	commit: change to regular stocks
+d38c38ff0a7db24e11a719d148e045891fd91225 a459c5817f3af1d974aeca1ad51a9627b6040c25 Fintual Developer <fintual@h4ck1ng.org> 1710349093 -0300	commit: include logfile for testing
+a459c5817f3af1d974aeca1ad51a9627b6040c25 38b7e6289961223bd9c2f90f30b52ec4e1020f1e Fintual Developer <fintual@h4ck1ng.org> 1710349310 -0300	commit: add html backup generator
+38b7e6289961223bd9c2f90f30b52ec4e1020f1e 8c1b9ca483d42eff30ab016024ea1daa08c060f2 Fintual Developer <fintual@h4ck1ng.org> 1710349328 -0300	commit: save backup output files
+8c1b9ca483d42eff30ab016024ea1daa08c060f2 05e6432138a6722f92058114bcb201b3f9b7a634 Fintual Developer <fintual@h4ck1ng.org> 1710349350 -0300	commit: change folder name to more descriptive
+05e6432138a6722f92058114bcb201b3f9b7a634 92618ea56760778c86b459136587fb87eb22233d Fintual Developer <fintual@h4ck1ng.org> 1710349377 -0300	commit: delete backup files

@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 
 services:
   backend:
@@ -16,7 +16,7 @@ services:
     build:
       context: ./frontend
       args:
-        NEXT_PUBLIC_API_URL: "http://0.0.0.0:80/api"
+        NEXT_PUBLIC_API_URL: "http://127.0.0.1:8000/api"
         GENERATE_SOURCEMAP: 0
     volumes:
       - react_build:/react-frontend/out

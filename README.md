@@ -1,4 +1,4 @@
-# Hack.ING 0x2
+# Hack.ING 2024
 ![Hack.ING 0x2 Logo](./media/logo.png)
 Made with ❤️ by [Security UC Club](https://security.ing.puc.cl)
 
